@@ -11,7 +11,7 @@ Op de Github-pagina vind je verschillende Proof of Concepts. Gebruik deze codes 
 Begin met het samenstellen van de auto. Begin met het maken van de bodemplaat; ik heb hiervoor plexiglas gebruikt, maar een ander licht materiaal is ook geschikt. Zorg ervoor dat het voldoet aan de eisen, zoals de mogelijkheid om door de tunnel te gaan en het juiste gewicht op de wielen te behouden. Controleer of elk component goed op de plaat past voordat je begint met uitsnijden, maar bevestig nog niets definitief.
 
 ### Stap 4
-Nu de bodemplaat gereed is, kun je beginnen met het monteren en aansluiten van alle componenten. Test elk component met behulp van de proof of concepts. Werkt alles naar behoren? Ga dan verder naar de volgende stap.
+Nu de bodemplaat gereed is, kun je beginnen met het monteren en aansluiten van alle componenten. Een aansluitschema is terug te vinden op de github, test elk component met behulp van de proof of concepts. Werkt alles naar behoren? Ga dan verder naar de volgende stap.
 
 ### Stap 5
 In deze stap zullen we de uiteindelijke code uploaden. Volg deze stappen:
