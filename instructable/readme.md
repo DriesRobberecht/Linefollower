@@ -17,10 +17,15 @@ Nu de bodemplaat gereed is, kun je beginnen met het monteren en aansluiten van a
 In deze stap zullen we de uiteindelijke code uploaden. Volg deze stappen:
 
 a) Verbind je Arduino met je pc via de kabel.
+
 b) Compileer de code en controleer indien nodig op syntaxfouten.
+
 c) Upload je code.
+
 d) Koppel de kabel los.
+
 e) Verander Serial1 naar Serial.
+
 f) Test de auto via de bluetooth-module.
 
 ### Stap 6
