@@ -5,7 +5,9 @@ De batterijen kunnen simpel opgeladen worden met een oplaadstation, een voorbeel
 
 ### draadloze communicatie
 #### verbinding maken
-je hebt 2 mogelijkheden, langs de ene kant kan je communicatie hebben via de laptop, hierbij moet de SerialGate op Serial staan. dit willen we natuurlijk niet als de auto uiteindelijk zou moeten rijden, dan gaan we gebruik maken van de bluetoothmodule. zorg dat de batterijen goed aangesloten zijn en dat de arduino en de HC-05 module gevoed worden, eens dat de HC-05 oplicht zal je via je bluetoothinstellingen van de gsm verbinding kunnen maken met de module.
+je hebt 2 mogelijkheden, langs de ene kant kan je communicatie hebben via de laptop, hierbij moet de SerialGate op Serial staan. dit willen we natuurlijk niet als de auto uiteindelijk zou moeten rijden, daarom gaan we gebruik maken van de bluetoothmodule. zorg dat de batterijen goed aangesloten zijn en dat de arduino en de HC-05 module gevoed worden, eens dat de HC-05 oplicht zal je via je bluetoothinstellingen van de gsm verbinding kunnen maken met de module.
+![image](https://github.com/DriesRobberecht/Linefollower/assets/146742569/30e60240-3698-489f-90bb-2163fbca6e69)
+
 
 #### commando's
 debug [on/off]  
