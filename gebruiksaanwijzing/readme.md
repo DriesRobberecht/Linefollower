@@ -9,7 +9,7 @@ je hebt 2 mogelijkheden, langs de ene kant kan je communicatie hebben via de lap
 eens je via je bluetoothverbinding van je gsm verbonden bent kan je via de app de effectieve verbinding maken via het aangeduide icoontje in de onderstaande afbeelding, als de tekst "connecting to (naam van de HC-05 module) ..." verschijnt is hij aan het proberen een connectie te verkrijgen met de module. dit kan falen zoals je op de tweede regel in de foto ziet, probeer het een tweede keer en ga anders na of de aansluitingen nog goed zitten. als er connected op komt is de HC-05 module perfect verbonden en kan je de commando's heen en weer beginnen versturen.
 <img width="301" alt="image" src="https://github.com/DriesRobberecht/Linefollower/assets/146742569/10c27541-0e49-42b3-a3a0-0fddf3ff37f7">
 
-#### commando's
+### commando's
 in ons programma hebben we verschillende commando's gestoken die we via de gsm kunnen doorsturen naar de arduino en waar een gevolg aan gekoppeld hebben hieronder een overzichtje van de commando's en wat deze precies doen.
 #### debug: 
 het commando debug zal alle verschillende waarden doen laten verschijnen, zo kan je zien wat zijn gecalibreerde waarden zijn, zijn genormaliseerde waarde, zijn foutberekening op basis van de zwarte lijn, ...
