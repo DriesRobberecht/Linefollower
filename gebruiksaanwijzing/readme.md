@@ -11,16 +11,24 @@ eens je via je bluetoothverbinding van je gsm verbonden bent kan je via de app d
 
 #### commando's
 in ons programma hebben we verschillende commando's gestoken die we via de gsm kunnen doorsturen naar de arduino en waar een gevolg aan gekoppeld hebben hieronder een overzichtje van de commando's en wat deze precies doen.
-debug: het commando debug zal alle verschillende waarden doen laten verschijnen, zo kan je zien wat zijn gecalibreerde waarden zijn, zijn genormaliseerde waarde, zijn foutberekening op basis van de zwarte lijn, ...
-start / stop: dit is een eenvoudig commando om de auto te laten starten met rijden, zo kunnen we eenvoudig de auto laten starten en stoppen zonder de batterijen steeds te moeten verwijderen 
-set cycle [µs]: hiermee kunnen we de cyclustijd van ons programma aanpasssen, het is het tijdsinterval tussen de verschillende keren dat hij alles gaat doorsturen over zijn Serial1.
-set power [0..255]: dit commando is om in te stellen hoe snel we onze motors gaan laten draaien, 0 is de waarde voor niks en 255 is de waarde voor het maximum. 
-set diff [0..1]: deze parameter zal ervoor zorgen dat de auto niet stilvalt in bochten wegens een te laag vermorgen, versnelt de robot in de bochten? verlaag diff. vertraagt de robot in de bochten/valt hij stil? verhoog diff.
-set kp [0..]: de parameter kp zal ervoor zorgen dat de robot sneller/trager bijstuurt als er zich een fout voordoet, stuurt de robot niet snel genoeg bij? verhoog Kp. waggelt de robot over de zwarte lijn? verlaag Kp.
-set ki [0..]  
-set kd [0..]  
-calibrate black: calibrate black is een commando dat je zal moeten uitvoeren als je de robot met zijn sensoren boven een zwart vlak plaatst, eens hij gecalibreerd is zal de arduino weten dat als hij ongeveer dezelfde waarden binnen krijgt dat de gecalibreerde waarde hij zich boven een zwart deel bevindt.
-calibrate white: hetzelfde als calibrate black maar dan voor wit.
+#### debug: 
+het commando debug zal alle verschillende waarden doen laten verschijnen, zo kan je zien wat zijn gecalibreerde waarden zijn, zijn genormaliseerde waarde, zijn foutberekening op basis van de zwarte lijn, ...
+#### start / stop:
+dit is een eenvoudig commando om de auto te laten starten met rijden, zo kunnen we eenvoudig de auto laten starten en stoppen zonder de batterijen steeds te moeten verwijderen 
+#### set cycle [µs]:
+hiermee kunnen we de cyclustijd van ons programma aanpasssen, het is het tijdsinterval tussen de verschillende keren dat hij alles gaat doorsturen over zijn Serial1.
+#### set power [0..255]:
+dit commando is om in te stellen hoe snel we onze motors gaan laten draaien, 0 is de waarde voor niks en 255 is de waarde voor het maximum. 
+#### set diff [0..1]:
+deze parameter zal ervoor zorgen dat de auto niet stilvalt in bochten wegens een te laag vermorgen, versnelt de robot in de bochten? verlaag diff. vertraagt de robot in de bochten/valt hij stil? verhoog diff.
+##### set kp [0..]:
+de parameter kp zal ervoor zorgen dat de robot sneller/trager bijstuurt als er zich een fout voordoet, stuurt de robot niet snel genoeg bij? verhoog Kp. waggelt de robot over de zwarte lijn? verlaag Kp.
+#### set ki [0..]  
+#### set kd [0..]  
+#### calibrate black:
+calibrate black is een commando dat je zal moeten uitvoeren als je de robot met zijn sensoren boven een zwart vlak plaatst, eens hij gecalibreerd is zal de arduino weten dat als hij ongeveer dezelfde waarden binnen krijgt dat de gecalibreerde waarde hij zich boven een zwart deel bevindt.
+##### calibrate white:
+hetzelfde als calibrate black maar dan voor wit.
 
 ### kalibratie
 als men de eerste keer gaat rijden op het parcours zal men zwart en wit doen calibreren, dit komt doordat elke andere ruimte andere verlichting heeft en dit impact kan hebben op het uitlezen van de sensorwaarden. calibreren zal je doen om een duidelijk verschil tussen zwart en wit te herkennen.
