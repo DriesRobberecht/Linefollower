@@ -24,7 +24,7 @@ c) Upload je code.
 
 d) Koppel de kabel los.
 
-e) Verander Serial1 naar Serial.
+e) Verander Serial naar Serial1.
 
 f) Test de auto via de bluetooth-module.
 
