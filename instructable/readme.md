@@ -2,7 +2,7 @@
  
 
 ### Stap 1
-Bestel alle componenten uit de bill of materials. Zorg ervoor dat deze componenten onderling compatibel zijn.
+Bestel alle componenten uit de bill of materials, deze componenten zijn onderling compatibel. Als je toch een ander component wilt gebruiken controleer dan zeker dat deze compatibel is met de rest van de componenten.
 
 ### Stap 2
 Op de Github-pagina vind je verschillende Proof of Concepts. Gebruik deze codes om te testen of de componenten naar behoren functioneren.
